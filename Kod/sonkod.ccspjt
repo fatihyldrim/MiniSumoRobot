@@ -1,0 +1,41 @@
+[PROJECT]
+Target=sonkod.HEX
+Development_Mode=2
+Processor=0x877F
+ToolSuite=CCS
+Processor_Text=PIC16F877
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=D:\Çalýþmalarým\Minisumo\sonkod\sonkod.c
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+
+[sonkod.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=sonkod.c
+
+[Windows]
+0=0000 sonkod.c 0 0 796 451 3 0
+
+[Opened Files]
+1=D:\Çalýþmalarým\Minisumo\sonkod\sonkod.c
+2=
+3=
+[Units]
+Count=1
+1=sonkod.c (main)
+Link=0

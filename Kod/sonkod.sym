@@ -1,0 +1,59 @@
+004-005 @READ_PROGRAM_MEMORY.P1
+004-005 @WRITE_PROGRAM_MEMORY.P2
+008     PSP_DATA
+015-016 CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B-01C CCP_2
+01C     CCP_2_HIGH
+020     @TRIS_C
+021     on
+022     sa
+023     so
+024     x
+025     MAIN.@SCRATCH
+026     @delay_ms1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+10D     @READ_PROGRAM_MEMORY.P1
+10D     @WRITE_PROGRAM_MEMORY.P2
+10F     @WRITE_PROGRAM_MEMORY.P1
+10F     @READ_PROGRAM_MEMORY.P2
+
+0004  @delay_ms1
+0018  dur
+0045  ileri
+005D  geri
+0075  sag
+008F  sol
+00A5  MAIN
+00A5  @cinit
+
+Project Files:
+    sonkod.c
+    C:\PROGRA~2\PICC\devices\16F877.h
+
+Units:
+    D:\Çalýþmalarým\Minisumo\sonkod\sonkod.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F877
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      0
+    Short,Int,Long: 1,8,16
+
+Output Files:
+    Errors:      D:\Çalýþmalarým\Minisumo\sonkod\sonkod.err
+    Ext Symbols: D:\Çalýþmalarým\Minisumo\sonkod\sonkod.esym
+    INHX8:       D:\Çalýþmalarým\Minisumo\sonkod\sonkod.hex
+    Symbols:     D:\Çalýþmalarým\Minisumo\sonkod\sonkod.sym
+    List:        D:\Çalýþmalarým\Minisumo\sonkod\sonkod.lst
+    Debug/COFF:  D:\Çalýþmalarým\Minisumo\sonkod\sonkod.cof
+    Call Tree:   sonkod.tre
+    Statistics:  sonkod.sta
